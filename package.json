@@ -1,0 +1,76 @@
+{
+  "name": "lukyanets-page",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://ant-lukyanets.co.ua",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^4.3.1",
+    "d3-ease": "^1.0.5",
+    "express": "^4.17.1",
+    "js-cookie": "^2.2.1",
+    "lottie-react-native": "^3.1.0",
+    "node-sass": "^4.13.0",
+    "prop-types": "^15.7.2",
+    "ra-data-json-server": "^2.9.7",
+    "ra-data-simple-rest": "^2.9.7",
+    "react": "^16.8.6",
+    "react-admin": "^2.9.7",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-bootstrap": "^1.0.0-beta.10",
+    "react-circular-progressbar": "^2.0.2",
+    "react-countdown-now": "^2.1.1",
+    "react-countup": "^4.2.0",
+    "react-dom": "^16.8.6",
+    "react-flip-numbers": "^3.0.4",
+    "react-ga": "^2.7.0",
+    "react-head": "^3.1.1",
+    "react-helmet": "^5.2.1",
+    "react-highlight": "^0.12.0",
+    "react-hooks-paginator": "^0.4.0",
+    "react-input-range": "^1.3.0",
+    "react-loading-screen": "0.0.17",
+    "react-localize-redux": "^3.5.3",
+    "react-lottie": "^1.2.3",
+    "react-rangeslider": "^2.2.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-sidebar": "^3.0.2",
+    "react-slick": "^0.25.2",
+    "react-sound": "^1.2.0",
+    "react-switch": "^5.0.1",
+    "react-tabs": "^3.0.0",
+    "react-useinterval": "^1.0.1",
+    "react-youtube": "^7.9.0",
+    "rmc-picker": "^5.0.10",
+    "slick-carousel": "^1.8.1",
+    "sweetalert2": "^8.14.0",
+    "sweetalert2-react": "^0.8.3",
+    "trongrid": "^1.2.2",
+    "tronweb": "^2.6.4",
+    "uifx": "^2.0.3",
+    "yarn": "^1.17.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

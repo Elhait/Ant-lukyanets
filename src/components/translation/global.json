@@ -1,0 +1,90 @@
+{
+    "lang": {
+        "en": ["EN", "АНГ", "英语"],
+        "ru": ["RU", "РУС", "俄"],
+        "zh": ["ZH", "КИТ", "中国"],
+        "english": ["English", "Английский", "英语"],
+        "russian": ["Russian", "Русский", "俄"],
+        "langs": ["EN", "РУС", "中国"]
+    },
+    "code": ["en", "ru", "zh"],
+
+    "header": {
+        "home": ["Home", "Главная", "Dapps"],
+        "about": ["About", "Более", "关于"]
+    },
+    "main": {
+        "h1": [
+            "Just play to make money",
+            "Просто играй, чтобы зарабатывать",
+            "只是为了赚钱而玩"
+        ],
+        "p1": [
+            "The most important question is “How can I make money on this?”. A gaming platform that takes full advantage of blockchain technology provides the answer – “Just play!”",
+            "Самый важный вопрос: «Как я могу на этом заработать?». Игровая платформа, которая использует все преимущества технологии блокчейн, дает ответ - «Просто играй!»",
+            "最重要的问题是“我该如何赚钱？”。 充分利用区块链技术的游戏平台提供了答案–“随便玩！”"
+        ],
+        "btn1": ["get started", "начать", "开始吧"],
+        "secondH2": [
+            "gml token and dividends",
+            "gml-токен и дивиденды",
+            "gml代币和股息"
+        ],
+        "secondP1": [
+            "Gemlink will release only 250,000,000 GML tokens.",
+            "Gemlink выпустит только 250 000 000 токенов GML.",
+            "Gemlink将仅释放250,000,000 GML令牌。"
+        ],
+        "secondP2": [
+            "To get 1 GML token, the player must play 33.3 TRX, in this  1 GML will cost only 1 TRX!",
+            "Чтобы получить 1 GML-токен, игрок должен сыграть на 33,3 TRX, при этом 1 GML будет стоить всего 1 TRX!",
+            "要获得1个GML令牌，玩家必须玩33.3 TRX，在此1 GML中仅需花费1 TRX！"
+        ],
+        "secondP3": [
+            "Hurry to mine as much as possible to receive dividends daily.",
+            "Спешите как можно быстрее получать дивиденды ежедневно.",
+            "赶快矿山开采，每天接受股息。"
+        ],
+        "btn2": ["start mining", "начать майнить", "开始采矿"],
+        "thirdH2": ["main advantages", "основные преимущества", "主要优点"],
+        "thirdH3.1": ["Transparency", "Прозрачность", "透明度"],
+        "thirdP1": [
+            "Transparency of a process provides honest gaming",
+            "Прозрачность процесса обеспечивает честную игру",
+            "流程的透明性提供了诚实的游戏体验"
+        ],
+        "thirdH3.2": ["Decentralization", "Децентрализация", "分权化"],
+        "thirdP2": [
+            "Decentralization mechanism excludes third party influence on the process",
+            "Механизм децентрализации исключает влияние третьей стороны на процесс",
+            "分权机制排除了第三方对流程的影响"
+        ],
+        "thirdH3.3": ["Low commission", "Низкая комиссия", "低佣金"],
+        "thirdP3": [
+            "Low commission provides higher earnings for the participants",
+            "Низкая комиссия обеспечивает более высокий заработок для участников",
+            "低佣金为参与者带来更高的收入"
+        ],
+        "thirdH3.4": ["Anonymity", "Анонимность", "匿名"],
+        "thirdP4": [
+            "Anonymity gives an opportunity to the participant to be sure of the safety of personal data",
+            "Анонимность дает возможность участнику быть уверенным в сохранности персональных данных",
+            "匿名为参与者提供了确保个人数据安全的机会"
+        ],
+        "fourthP": [
+            "A unique algorithm Extra X has been created to make dice more profitable and fun. You can play many times by making only one bet and win more with high chances of winning!",
+            "Уникальный алгоритм Extra X был создан, чтобы сделать Dice более прибыльными и веселыми. Вы можете играть много раз, сделав только одну ставку, и выиграть больше с высокими шансами на выигрыш!",
+            "已经创建了独特的算法Extra X，使骰子更有利可图，更有趣。 您只需下一次赌注就可以玩很多次，赢的机会更大，赢更多！"
+        ],
+        "btn3": ["start earning", "начать зарабатывать", "开始赚钱"],
+        "h2Video": [
+            "how to play and earn",
+            "как играть и зарабатывать",
+            "怎么玩和赚钱"
+        ],
+        "gemlink":["Gemlink - blockchain gaming platform","Gemlink - игровая платформа на блокчейне","Gemlink-区块链游戏平台"],
+        "dice":["How to play Dice. TronLink extension and dice rules.","Как играть Dice. Расширение TronLink и правила игры дайс.","如何玩骰子。 TronLink扩展和骰子规则。"],
+        "extraX":["How Extra X Mode works. Dice Extra X Rules.","Как работает Extra X Mode. Правила игры dice с экстра Х.","Extra X Mode如何工作。骰子额外X规则"],
+        "dividends":["Dividends. How to profit from the game Dice. Gemlink gaming platform dividend payout principle","Дивиденды. Как получать прибыль от игры Dice. Принцип выплаты дивидендов игровой платформы Gemlink","股利。如何从游戏骰子中获利。 Gemlink游戏平台股息派发原则"]
+    }
+}
