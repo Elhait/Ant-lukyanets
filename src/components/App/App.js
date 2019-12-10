@@ -23,9 +23,9 @@ function App(props) {
     useEffect(() => {
         props.initialize({
             languages: [
-                { name: "EN", code: "en" },
+                { name: "УКР", code: "ua" },
                 { name: "РУС", code: "ru" },
-                { name: "中国", code: "zh" }
+                { name: "EN", code: "en" }
             ],
             translation: globalTranslations,
             options: { renderToStaticMarkup }

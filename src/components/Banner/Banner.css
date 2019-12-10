@@ -16,31 +16,155 @@
       -ms-flex-align: center;
           align-items: center; }
   .banner .container-fluid {
-    z-index: 1; }
-    .banner .container-fluid .center {
-      text-align: center; }
-      .banner .container-fluid .center h1 {
+    z-index: 0; }
+    .banner .container-fluid .title {
+      text-align: center;
+      width: -webkit-max-content;
+      width: -moz-max-content;
+      width: max-content;
+      padding: 10px;
+      margin: auto;
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 10px; }
+      .banner .container-fluid .title h1 {
         font-size: 7.2rem;
         font-weight: 700;
-        text-transform: uppercase; }
-      .banner .container-fluid .center h2 {
+        text-transform: uppercase;
+        margin: 0 auto;
+        white-space: nowrap;
+        overflow: hidden;
+        max-width: 700px;
+        line-height: 1;
+        width: 100%;
+        -webkit-animation: type 2s steps(40, end) forwards;
+                animation: type 2s steps(40, end) forwards;
+        margin-bottom: 10px; }
+      .banner .container-fluid .title h2 {
         font-size: 2.4rem;
-        font-weight: 400; }
+        font-weight: 400;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        opacity: 0;
+        margin: 0 auto;
+        max-width: 305px;
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        -webkit-animation: shring-animation 2.2s steps(40, end) 2s forwards, blink 0.5s step-end infinite alternate;
+                animation: shring-animation 2.2s steps(40, end) 2s forwards, blink 0.5s step-end infinite alternate; }
+        .banner .container-fluid .title h2:lang(ru) {
+          max-width: 320px; }
+        .banner .container-fluid .title h2:lang(en) {
+          max-width: 295px; }
+@-webkit-keyframes shring-animation {
+  0% {
+    background-position: 0 0;
+    opacity: 0;
+    width: 0; }
+  1% {
+    background-position: 0 0;
+    opacity: 1;
+    border-right: 1px solid #f5f5f5; }
+  50% {
+    background-position: 150px 0;
+    opacity: 1;
+    border-right: 1px solid #f5f5f5; }
+  100% {
+    background-position: 400px 0;
+    opacity: 1;
+    border-right: 1px solid #f5f5f5; } }
+@keyframes shring-animation {
+  0% {
+    background-position: 0 0;
+    opacity: 0;
+    width: 0; }
+  1% {
+    background-position: 0 0;
+    opacity: 1;
+    border-right: 1px solid #f5f5f5; }
+  50% {
+    background-position: 150px 0;
+    opacity: 1;
+    border-right: 1px solid #f5f5f5; }
+  100% {
+    background-position: 400px 0;
+    opacity: 1;
+    border-right: 1px solid #f5f5f5; } }
+@-webkit-keyframes type {
+  0% {
+    width: 0; }
+  1%, 99% {
+    border-right: 1px solid #f5f5f5; }
+  100% {
+    border-right: none; } }
+@keyframes type {
+  0% {
+    width: 0; }
+  1%, 99% {
+    border-right: 1px solid #f5f5f5; }
+  100% {
+    border-right: none; } }
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent; } }
+@keyframes blink {
+  50% {
+    border-color: transparent; } }
   .banner .bg {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.9; }
+    opacity: 1;
+    pointer-events: none; }
     .banner .bg::before {
       content: "";
       position: absolute;
       top: 0;
       left: 0;
       right: 0;
-      bottom: 0;
-      background: rgba(0, 0, 0, 0.5);
-      z-index: 2; }
+      bottom: 0; }
+
+@media (max-width: 992px) {
+  .banner .container-fluid .title h1 {
+    max-width: 635px; }
+  .banner .container-fluid .title h2 {
+    max-width: 275px; }
+    .banner .container-fluid .title h2:lang(ru) {
+      max-width: 295px; }
+    .banner .container-fluid .title h2:lang(en) {
+      max-width: 270px; } }
+@media (max-width: 768px) {
+  .banner {
+    height: 100vh; }
+    .banner .bg {
+      height: 100%; }
+    .banner .container-fluid .title h1 {
+      font-size: 6rem;
+      line-height: 1.1;
+      margin-bottom: 10px; }
+    .banner .container-fluid .title h2 {
+      max-width: 240px; }
+      .banner .container-fluid .title h2:lang(ru) {
+        max-width: 260px; }
+      .banner .container-fluid .title h2:lang(en) {
+        max-width: 240px; } }
+@media (max-width: 576px) {
+  .banner .container-fluid .title h1 {
+    font-size: 5rem; } }
+@media (max-width: 440px) {
+  .banner .container-fluid .title h1 {
+    font-size: 4rem; }
+  .banner .container-fluid .title h2 {
+    font-size: 2rem;
+    max-width: 200px; }
+    .banner .container-fluid .title h2:lang(ru) {
+      max-width: 215px; }
+    .banner .container-fluid .title h2:lang(en) {
+      max-width: 200px; } }
+@media (max-width: 350px) {
+  .banner .container-fluid .title h1 {
+    font-size: 3.5rem; } }
 
 /*# sourceMappingURL=Banner.css.map */

@@ -3,7 +3,7 @@ import Lottie from 'react-lottie';
 // import animationData from './Loading.json'
 // import animationData from './data2.json'
 // import animationData from './night-vs-day.json'
-import animationData from './background/9.json'
+import animationData from './background/data.json'
 
 
 export default class BgAnimation extends React.Component {

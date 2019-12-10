@@ -1,0 +1,312 @@
+#header 
+	top: 0
+	// padding: 24px 72px
+	width: 100%
+	z-index: 1
+	position: fixed
+	&.sticky 
+		position: fixed
+		top: 0
+		width: 100%
+	&.top
+		background: #141816
+		position: fixed
+		z-index: 10
+		.sidebar
+			margin-top: 52px
+		
+		.container-custom
+			padding: 0 30px
+	.container-custom
+		max-width: calc(1545px + 30px * 2)
+		margin: 0 auto
+		padding: 0 30px
+		transition: padding .2s
+	a 
+		display: flex
+		justify-content: center
+		align-items: center
+		img 
+			width: 100%
+			max-width: 155px
+			margin: 0 auto
+			display: block
+	.router-link 
+		position: relative
+		display: inline-flex
+		-webkit-font-smoothing: antialiased
+		-webkit-touch-callout: none
+		user-select: none
+		cursor: pointer
+		outline: 0
+		font-weight: normal
+		font-size: 16px
+		color: #f5f5f5
+		&:after 
+			position: absolute
+			bottom: 20%
+			left: 0
+			right: 0
+			margin: auto
+			width: 0%
+			content: '.'
+			color: transparent
+			background: #f5f5f5
+			height: 1px
+			transition: all .5s
+		&:hover
+			text-decoration: none
+			&:after 
+				width: 100%
+		&:active 
+			// background: #41addd
+			color: #fff
+	.dropdown 
+		outline: none
+		.btn-primary 
+			background-color: #ffffff00 !important
+			border: none !important
+			padding: 0
+			font-size: 16px
+	.sidebarMenu
+		position: relative
+		width: 24px
+		height: 24px
+		&:focus
+			outline: none
+		div:focus
+			outline: none
+	.sidebar 
+		margin-top: 72px
+		max-width: 320px !important
+		min-width: 320px !important
+		width: 100% !important
+		height: calc(100vh - 52px) !important
+		background-color: #1f1f1f  !important
+		z-index: 5 !important
+		position: fixed !important
+		top: 0 !important
+		bottom: 0 !important
+		transition: transform .3s ease-out !important
+		-webkit-transition: -webkit-transform .3s ease-out !important
+		will-change: transform !important
+		overflow-y: auto !important
+		&__body
+			display: flex
+			flex-direction: column
+			height: 100%
+			padding: 30px
+			// justify-content: space-around
+			.router-link
+				height: 60px
+				background-size: cover
+				// filter: grayscale(30%)
+				font-size: 3rem
+				border: 3px solid #9b3e46 
+				margin-bottom: 15px
+				border-radius: 5px
+				transition: .5s
+				&:hover
+					text-decoration: none
+					box-shadow: 0 0 10px 0 #9b3e46  inset, 0 0 20px 2px #9b3e46
+					text-shadow: 0px 0px 50px #9b3e46, 0 0 1em #9b3e46
+					&:after 
+						width: 0%
+				&:active
+					box-shadow: 0 0 10px 0 #9b3e46  inset, 0 0 20px 2px #9b3e46
+					text-shadow: 0px 0px 50px #9b3e46, 0 0 1em #9b3e46
+				&:nth-of-type(1)
+					// background-image: url(../Media/Image/header/bg1.jpg)
+				&:nth-of-type(2)
+					// background-image: url(../Media/Image/header/bg2.jpg)
+				&:nth-of-type(3)
+					// background-image: url(../Media/Image/header/bg3.jpg)
+	.side-btn
+		color: #fff
+		border: none
+		background-color: transparent
+		background-repeat: no-repeat
+		background-position: 50%
+		padding: 0
+	.lang 
+		width: 35px
+		background: inherit
+		border: none
+		position: relative
+		-ms-flex-item-align: center
+		align-self: center
+		margin-left: 0px
+		margin-right: 20px
+		text-align: center
+		font-size: 14px
+		font-weight: 500
+		height: 52px
+		outline: none
+		display: flex
+		align-items: center
+		button 
+			outline: none
+			padding: 0
+		.btn-success.focus, .btn-success:focus 
+			box-shadow: none
+		&.show 
+			.btn 
+				padding: 0
+			.dropdown-toggle:after 
+				transform: rotate(180deg)
+				transition: 0.2s
+			.btn-success.dropdown-toggle 
+				color: #fff
+				background-color: none
+				border-color: none
+			.show:hover .lang__more 
+				display: -webkit-box
+				display: -ms-flexbox
+				display: flex
+		.dropdown-toggle 
+			color: #ffffff
+			width: 100%
+			height: 100%
+			background: none
+			border: none
+			&::after 
+				color: #ab2c2c
+				vertical-align: super
+				transition: 0.2s
+				margin-left: 5px
+				border-top: 0.4em solid
+				border-right: .4em solid transparent
+				border-bottom: 0
+				border-left: .4em solid transparent
+			.lang__active 
+				color: #ffffff
+				background: none
+				border: none
+				width: 100%
+				height: 100%
+				font-size: 16px
+		.dropdown-menu 
+			background: #423D6B
+			min-width: auto
+			width: 60px
+			font-size: 14px
+			top: 98% !important
+			left: 50% !important
+			transform: translateX(-50%) !important
+			z-index: 1
+			li 
+				height: 30px
+				&:hover
+					background: rgb(83, 69, 119)
+				.dropdown-item 
+					width: 100%
+					height: 100%
+					display: flex
+					justify-content: center
+					align-items: center
+					border: none
+					background: none
+					color: #ffffff
+				
+			
+		
+		
+		
+	
+
+	.lang.show a 
+		color: #ffffff
+	
+	.row 
+		justify-content: space-between
+	
+	.logo
+		width: 100%
+		max-width: 155px
+
+	
+	.nav-bar 
+		text-align: center
+		width: 100%
+		max-width: 700px
+		&__box 
+			display: flex
+			justify-content: space-between
+		
+		&__mobile 
+			display: none
+			align-items: center
+		
+	
+
+@media (max-width: 1605px) 
+	#header 
+		.container-custom
+			padding: 10px 30px
+		
+	
+
+@media (max-width: 992px) 
+	#header
+		&.normal 
+			background: #141816
+			.container-custom
+				padding: 0 30px
+			
+			.sidebar
+				margin-top: 52px
+			
+		
+		.nav-bar
+			width: auto
+			&__box 
+				display: none
+			
+			&__mobile 
+				display: flex
+			
+		
+	 
+
+@media (max-width: 768px) 
+
+
+// @media (max-width: 550px) 
+//     #header 
+//         .router-link 
+//             font-size: 14px
+//         
+//         .lang 
+//             .dropdown-toggle 
+//                 .lang__active 
+//                     font-size: 14px
+//                 
+//             
+//         
+//         .dropdown 
+//             .btn-primary 
+//                 font-size: 14px
+//             
+//         
+
+//         a 
+//             img 
+//                 max-width: 120px
+//             
+//        
+//     
+// 
+@media (max-width: 500px) 
+	#header 
+		&.top, &.normal
+			.container-custom
+				padding: 0 10px
+			
+		
+		.container-custom
+			padding: 0px 10px 15px
+		
+	
+
+@media (max-width: 400px) 
+

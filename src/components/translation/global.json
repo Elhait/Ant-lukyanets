@@ -5,86 +5,65 @@
         "zh": ["ZH", "КИТ", "中国"],
         "english": ["English", "Английский", "英语"],
         "russian": ["Russian", "Русский", "俄"],
-        "langs": ["EN", "РУС", "中国"]
+        "langs": ["УКР", "РУС", "EN"]
     },
-    "code": ["en", "ru", "zh"],
+    "code": ["ua", "ru", "en"],
 
     "header": {
-        "home": ["Home", "Главная", "Dapps"],
-        "about": ["About", "Более", "关于"]
+        "aboutMe": ["Про мене", "Обо мне", "About me"],
+        "skills": ["Навички", "Навыки", "Skills"],
+        "resume": ["Резюме","Резюме","Resume"],
+        "bio": ["Досвід","Опыт","Experience"],
+        "portfolio":["Портфоліо","Портфолио","Portfolio"],
+        "contact":["Контакти","Контакты","Contacts"]
+
     },
     "main": {
-        "h1": [
-            "Just play to make money",
-            "Просто играй, чтобы зарабатывать",
-            "只是为了赚钱而玩"
-        ],
-        "p1": [
-            "The most important question is “How can I make money on this?”. A gaming platform that takes full advantage of blockchain technology provides the answer – “Just play!”",
-            "Самый важный вопрос: «Как я могу на этом заработать?». Игровая платформа, которая использует все преимущества технологии блокчейн, дает ответ - «Просто играй!»",
-            "最重要的问题是“我该如何赚钱？”。 充分利用区块链技术的游戏平台提供了答案–“随便玩！”"
-        ],
-        "btn1": ["get started", "начать", "开始吧"],
-        "secondH2": [
-            "gml token and dividends",
-            "gml-токен и дивиденды",
-            "gml代币和股息"
-        ],
-        "secondP1": [
-            "Gemlink will release only 250,000,000 GML tokens.",
-            "Gemlink выпустит только 250 000 000 токенов GML.",
-            "Gemlink将仅释放250,000,000 GML令牌。"
-        ],
-        "secondP2": [
-            "To get 1 GML token, the player must play 33.3 TRX, in this  1 GML will cost only 1 TRX!",
-            "Чтобы получить 1 GML-токен, игрок должен сыграть на 33,3 TRX, при этом 1 GML будет стоить всего 1 TRX!",
-            "要获得1个GML令牌，玩家必须玩33.3 TRX，在此1 GML中仅需花费1 TRX！"
-        ],
-        "secondP3": [
-            "Hurry to mine as much as possible to receive dividends daily.",
-            "Спешите как можно быстрее получать дивиденды ежедневно.",
-            "赶快矿山开采，每天接受股息。"
-        ],
-        "btn2": ["start mining", "начать майнить", "开始采矿"],
-        "thirdH2": ["main advantages", "основные преимущества", "主要优点"],
-        "thirdH3.1": ["Transparency", "Прозрачность", "透明度"],
-        "thirdP1": [
-            "Transparency of a process provides honest gaming",
-            "Прозрачность процесса обеспечивает честную игру",
-            "流程的透明性提供了诚实的游戏体验"
-        ],
-        "thirdH3.2": ["Decentralization", "Децентрализация", "分权化"],
-        "thirdP2": [
-            "Decentralization mechanism excludes third party influence on the process",
-            "Механизм децентрализации исключает влияние третьей стороны на процесс",
-            "分权机制排除了第三方对流程的影响"
-        ],
-        "thirdH3.3": ["Low commission", "Низкая комиссия", "低佣金"],
-        "thirdP3": [
-            "Low commission provides higher earnings for the participants",
-            "Низкая комиссия обеспечивает более высокий заработок для участников",
-            "低佣金为参与者带来更高的收入"
-        ],
-        "thirdH3.4": ["Anonymity", "Анонимность", "匿名"],
-        "thirdP4": [
-            "Anonymity gives an opportunity to the participant to be sure of the safety of personal data",
-            "Анонимность дает возможность участнику быть уверенным в сохранности персональных данных",
-            "匿名为参与者提供了确保个人数据安全的机会"
-        ],
-        "fourthP": [
-            "A unique algorithm Extra X has been created to make dice more profitable and fun. You can play many times by making only one bet and win more with high chances of winning!",
-            "Уникальный алгоритм Extra X был создан, чтобы сделать Dice более прибыльными и веселыми. Вы можете играть много раз, сделав только одну ставку, и выиграть больше с высокими шансами на выигрыш!",
-            "已经创建了独特的算法Extra X，使骰子更有利可图，更有趣。 您只需下一次赌注就可以玩很多次，赢的机会更大，赢更多！"
-        ],
-        "btn3": ["start earning", "начать зарабатывать", "开始赚钱"],
-        "h2Video": [
-            "how to play and earn",
-            "как играть и зарабатывать",
-            "怎么玩和赚钱"
-        ],
-        "gemlink":["Gemlink - blockchain gaming platform","Gemlink - игровая платформа на блокчейне","Gemlink-区块链游戏平台"],
-        "dice":["How to play Dice. TronLink extension and dice rules.","Как играть Dice. Расширение TronLink и правила игры дайс.","如何玩骰子。 TronLink扩展和骰子规则。"],
-        "extraX":["How Extra X Mode works. Dice Extra X Rules.","Как работает Extra X Mode. Правила игры dice с экстра Х.","Extra X Mode如何工作。骰子额外X规则"],
-        "dividends":["Dividends. How to profit from the game Dice. Gemlink gaming platform dividend payout principle","Дивиденды. Как получать прибыль от игры Dice. Принцип выплаты дивидендов игровой платформы Gemlink","股利。如何从游戏骰子中获利。 Gemlink游戏平台股息派发原则"]
+        "banner": {
+            "h1":["Антон Лук'янець","Антон Лукьянец","Anton Lukyanets"],
+            "h2":["розробник","разработчик","developer"]
+        },
+        "aboutMe":{
+            "title":["Про мене","Обо мне","About me"],
+            "p1":["Привіт! Я займаюся розробкою сайтів будь-якої складності з використанням різних сучасних технологій починаючи стандартними HTML5 / CSS3 і завершуючи фреймворком React і препроцесорами Sass, Scss. Код завжди відповідає стандартам W3C та порівняно з білдерами немає зайвого коду. Сайти відмінно адаптовані під різні пристрої. Результат вас гарантовано задовольнить.","Привет! Я занимаюсь разработкой сайтов любой сложности с использованием различных современных технологий начиная стандартными HTML5 / CSS3 и заканчивая фреймворком React и препроцессор Sass, Scss. Код всегда соответствует стандартам W3C и по сравнению с билдерами не имеет лишнего кода. Сайты отлично адаптированы под различные устройства. Результат вас гарантированно удовлетворит.","Hi there! I am developing sites of any complexity using different modern technologies, starting with standard HTML5 / CSS3 and ending with React framework and Sass, Scss preprocessors. The code always complies with W3C standards and there is no unnecessary code compared to builders. The sites are perfectly adapted to different devices. The result is guaranteed to satisfy you."],
+            "p2":["Відкритий для нових знань. На данний час знаходжусь в пошуку працевлаштування, на якому буду покращувати свої навички та здібності.","Открыт для новых знаний. В данное время нахожусь в поиске трудоустройства, на котором буду улучшать свои навыки и способности.","Open to new knowledge. I am currently looking for a job where I can improve my skills and abilities."]
+        },
+        "skills":{
+            "title":["Навички", "Навыки", "Skills"],
+            "p1":["Вільно володію HTML5 і СSS3. Позиціонування об'єктів переважно роблю за допомогою Flexbox. Впевнено використовую в роботі React, Git, препроцесор SASS, а також CSS фреймворк Bootstrap 4. Знання JS / JQUERY на рівні вільної інтеграції готових плагінів. Є досвід роботи з WordPress. Розробляю повністю адаптивні, кроссбраузерні сайти з валідним кодом. Англійська мова на рівні читання документації.","Свободно владею HTML5 и СSS3. Позиционирование объектов преимущественно делаю с помощью Flexbox. Уверенно использую в работе React, Git, препроцессор SASS, а также CSS фреймворк Bootstrap 4. Знание JS / JQUERY на уровне свободной интеграции готовых плагинов. Есть опыт работы с WordPress. Разрабатываю полностью адаптивные, кроссбраузерни сайты с валидным кодом. Английский язык на уровне чтения документации.","Fluent in HTML5 and CSS3. I mainly position objects using Flexbox. I am confident in using React, Git, the SASS preprocessor, as well as the CSS framework Bootstrap 4. Knowledge of JS / JQUERY on the level of free integration of ready-made plugins. Have experience with WordPress. I develop fully customizable, cross-browser sites with valid code. English at the documentation reading level."],
+            "p2":["Надішліть мені повідомлення, для реалізації вашого ідеального проекту.","Отправьте мне сообщение, для реализации вашего идеального проекта.","Send me a message for your perfect project."],
+            "button":["Зв'яжіться зі мною","Свяжитесь со мной","Please contact me"]
+        },
+        "resume":{
+            "title":["Резюме","Резюме","Resume"],
+            "p1":["Ви можете побачити мої досягнення, перераховані нижче, або завантажити копію для друку.","Вы можете увидеть мои достижения, перечисленные ниже, или загрузить копию печати.","You can see my achievements listed below or download a copy for print."],
+            "button":["Завантажити","Скачать","Download"]
+        },
+        "bio":{
+            "titleEdu":["Освіта","Образование","Education"],
+            "textEdu":["Навчався 4 роки в коледжі ВКНУХТ, на стаціонарному відділенні, та на Магістратурі ВНТУ","Учился 4 года в колледже ВКНУХТ, на стационарном отделении, и в магистратуру ВНТУ","Studied for 4 years at VKNUHT College, inpatient department and at VNTU Magistracy"],
+            "titleEdu1_1":["Вінницький коледж національного університету харчових технологій (ВКНУХТ)","Винницкий колледж национального университета пищевых технологий (ВКНУХТ)","Vinnitsa College of National University of Food Technologies (VKNUHT)"],
+            "textEdu1_1":["Факультет та кафедра теплоенергетики (з 09.2011 по 07.2015)","Факультет и кафедра теплоэнергетики (с 09.2011 по 07.2015)","Faculty and Chair of Heat Power Engineering (from 09.2011 to 07.2015)"],
+            "titleEdu1_2":["Вінницький національний технічний університет(ВНТУ)","Винницкий национальный технический университет (ВНТУ)","Vinnytsia National Technical University (VNTU)"],
+            "textEdu1_2":["Факультет будівництва, кафедра теплоенергетики (з 09.2015 по 06.2019)","Факультет строительства, кафедра теплоэнергетики (с 09.2015 по 06.2019)","Faculty of Civil Engineering, Department of Heat and Power Engineering (from 09.2015 to 06.2019)"],
+            "titleExp":["Досвід","Опыт","Experience"],
+            "textExp1_1":["Проходив стажування в веб-студії SmartPixel","Проходил стажировку в веб-студии SmartPixel","Trained at SmartPixel Web Studio"],
+            "textExp1_2":["Був ведущим Front-end розробником в компанії DareDapps","Был ведущим Front-end разработчиком в компании DareDapps","He was a leading Front-end developer at DareDapps"],
+            "textSmart":["Front-end розробник (з 01.2019 по 03.2019)","Front-end разработчик (с 01.2019 по 03.2019)","Front-end developer (01.2019 to 03.2019)"],
+            "textDD":["Front-end React розробник (з 06.2019 по 12.2019)","Front-end React разработчик (с 06.2019 по 12.2019)","Front-end React Developer (06.2019 to 12.2019)"]
+        },
+        "portfolio":{
+            "title":["Портфоліо","Портфолио","Portfolio"],
+            "gemlink":["Маштабний та багатомовний гемблінг проект з використанням технології блокчейн на криптовалюті Tron. Були використані такі технології:","Масштабный и многоязычный гемблинг проект с использованием технологии блокчейн на криптовалюта Tron. Были использованы следующие технологии:","A large-scale and multilingual gambling project using Tron cryptocurrency blockchain technology. The following technologies were used:"],
+            "gemlinkSpace":["Лендінг сторінка проекту Gemlink. Були використані такі технології:","Лендинг страница проекта Gemlink. Были использованы следующие технологии:","Landing page of the Gemlink project. The following technologies were used:"],
+            "timerGuardBox":["Перший проект на DareDapps який був випущений в продакшн. Були використані такі технології:","Первый проект на DareDapps который был выпущен в продакшн. Были использованы следующие технологии:","The first project on DareDapps that was released into production. The following technologies were used:"],
+            "carService":["Розробка сайту автосалону, зробленного на базі макету. Були використані такі технології:","Разработка сайта автосалона, сделанной на базе макета. Были использованы следующие технологии:","Development of the site of the showroom, made on the basis of layout. The following technologies were used:"],
+            "teVNTU":["Сайт для кафедри теплоенергетики ВНТУ, в якій я навчався. На данний момент заморожений. Були використані такі технології:","Сайт для кафедры теплоэнергетики ВНТУ, в которой я учился. На данный момент заморожен. Были использованы следующие технологии:","Site for the Department of Heat Power Engineering of VNTU in which I studied. Currently frozen. The following technologies were used:"],
+            "titleTeVNTU":["Кафедра теплоенергетики ВНТУ","Кафедра теплоэнергетики ВНТУ","Department of Heat and Power Engineering of VNTU"],
+            "propper":["Тестове завдання на базі макету. Були використані такі технології:","Тестовое задание на базе макета. Были использованы следующие технологии:","Test task based on layout. The following technologies were used:"],
+            "ryco":["Тестове завдання по розробці сайту для продажу нерухомості на базі макету. Були використані такі технології:","Тестовое задание по разработке сайта для продажи недвижимости на базе макета. Были использованы следующие технологии:","The test task of developing a site for sale real estate based on layout. The following technologies were used:"],
+            "brandero":["Тестове завдання на базі макету. Були використані такі технології:","Тестовое задание на базе макета. Были использованы следующие технологии:","Test task based on layout. The following technologies were used:"],
+            "misocial":["Перша повноцінно виконана робота по макету. Були використані такі технології:","Первая полноценно выполнена работа по макету. Были использованы следующие технологии:","The first fully completed work on the layout. The following technologies were used:"]
+        }
     }
 }

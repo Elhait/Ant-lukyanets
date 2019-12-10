@@ -16,7 +16,7 @@ import Cookies from "js-cookie";
 function Application() {
     return (
         <Helmet>
-            <htmlAttributes lang={Cookies.get("ActiveLanguage")} />
+            <html lang={Cookies.get("ActiveLanguage")} amp/>
             <meta charSet="utf-8" />
             <title>Anton Lukyanets</title>
             <link rel="manifest" href="manifest.json"></link>

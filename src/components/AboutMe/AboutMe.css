@@ -1,5 +1,50 @@
-.aboutMe__photo img {
-  width: 100%;
-  height: auto; }
+.aboutMe .animated {
+  height: 100%; }
+.aboutMe__info {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+.aboutMe__photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .aboutMe__photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; }
+
+@media (max-width: 767px) {
+  .aboutMe {
+    padding: 40px 0; }
+    .aboutMe .text-block {
+      display: none; }
+    .aboutMe .hidden {
+      display: block; }
+      .aboutMe .hidden .text-block {
+        display: block; } }
+@media (max-width: 576px) {
+  .aboutMe__photo img {
+    max-width: 300px; }
+  .aboutMe .col-12:nth-of-type(1) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
+  .aboutMe .col-12:nth-of-type(2) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; }
+    .aboutMe .col-12:nth-of-type(2) .aboutMe__info {
+      margin-top: 25px; } }
 
 /*# sourceMappingURL=AboutMe.css.map */

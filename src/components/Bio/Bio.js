@@ -3,41 +3,34 @@ import "./Bio.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import ProgressBar from "react-bootstrap/ProgressBar";
-// import { Translate } from "react-localize-redux";
+import { Translate } from "react-localize-redux";
 
 function Bio(props) {
     return (
-        <section class="bio" id="bio">
+        <section className="bio" id="bio">
             <Container>
                 <Row className="bio__info">
                     <Col className="left" sm={6} xs={12}>
-                        <h2>Оcвіта</h2>
+                        <h3><Translate id="main.bio.titleEdu" /></h3>
                         <p>
-                            Навчався 4 роки в коледжі ВКНУХТ, на стаціонарному
-                            відділенні / На данний час навчаюсь на 1 курсі
-                            Магістратури ВНТУ
+                            <Translate id="main.bio.textEdu" />
                         </p>
                     </Col>
                     <Col className="right" sm={6} xs={12}>
                         <div className="right__institution">
-                            <h3>
-                                Вінницький коледж національного університету
-                                харчових технологій (ВКНУХТ)
-                            </h3>
+                            <h4>
+                                <Translate id="main.bio.titleEdu1_1" />
+                            </h4>
                             <p>
-                                Факультет та кафедра теплоенергетики (з 09.2011
-                                по 07.2015)
+                                <Translate id="main.bio.textEdu1_1" />
                             </p>
                         </div>
                         <div className="right__institution">
-                            <h3>
-                                Вінницький національний технічний університет
-                                (ВНТУ)
-                            </h3>
+                            <h4>
+                                <Translate id="main.bio.titleEdu1_2" />
+                            </h4>
                             <p>
-                                Факультет будівництва, кафедра теплоенергетик.
-                                (з 09.2015 по 06.2019)
+                                <Translate id="main.bio.textEdu1_2" />
                             </p>
                         </div>
                     </Col>
@@ -45,17 +38,21 @@ function Bio(props) {
                 <div className="band" />
                 <Row className="bio__info">
                     <Col className="left" sm={6} xs={12}>
-                        <h2>Досвід</h2>
-                        <p>Проходив стажування в веб-студії SmartPixel</p>
+                        <h3><Translate id="main.bio.titleExp" /></h3>
+                        <p><Translate id="main.bio.textExp1_1" /></p>
+                        <p><Translate id="main.bio.textExp1_2" /></p>
                     </Col>
                     <Col className="right" sm={6} xs={12}>
                         <div className="right__institution">
-                            <h3>SmartPixel</h3>
+                            <h4>SmartPixel</h4>
                             <p>
-                                Front-end розробник (з 01.2019 по 03.2019),
-                                пішов в зв'язку з тим, що після 2 місяців
-                                стажування був запропонований грошовий оклад
-                                нижчий мінімальної заробітньої плати
+                                <Translate id="main.bio.textSmart" />
+                            </p>
+                        </div>
+                        <div className="right__institution">
+                            <h4>DareDapps</h4>
+                            <p>
+                                <Translate id="main.bio.textDD" />
                             </p>
                         </div>
                     </Col>

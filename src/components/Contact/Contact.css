@@ -1,0 +1,129 @@
+.contact {
+  position: relative;
+  padding: 8% 0 4.3% !important; }
+  .contact .volna {
+    height: 20%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+  .contact .row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto; }
+  .contact__infoWrap {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .contact__infoWrap i {
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%);
+      margin: auto 0;
+      font-size: 30px;
+      color: #ffffff;
+      -webkit-animation-duration: 5s;
+      animation-duration: 5s;
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate; }
+    .contact__infoWrap p {
+      font-size: 18px;
+      margin-left: 50px;
+      color: #ffffff; }
+      .contact__infoWrap p a {
+        color: #77bccb;
+        text-decoration: underline;
+        margin-left: 5px; }
+      .contact__infoWrap p a:hover {
+        color: #0673b8;
+        -webkit-transition: 500ms;
+        transition: 500ms; }
+  .contact__infoWrap:nth-of-type(1) i {
+    -webkit-animation-name: mail;
+    animation-name: mail; }
+@-webkit-keyframes mail {
+  0% {
+    opacity: 0.5; }
+  50% {
+    opacity: 0.75; }
+  100% {
+    opacity: 1; } }
+@keyframes mail {
+  0% {
+    opacity: 0.5; }
+  50% {
+    opacity: 0.75; }
+  100% {
+    opacity: 1; } }
+  .contact__infoWrap:nth-of-type(1) a:hover {
+    color: #ffffff; }
+  .contact__infoWrap:nth-of-type(2) i {
+    -webkit-animation-name: telega;
+    animation-name: telega; }
+@-webkit-keyframes telega {
+  from {
+    color: #1289c3; } }
+@keyframes telega {
+  from {
+    color: #1289c3; } }
+  .contact__infoWrap:nth-of-type(2) a:hover {
+    color: #1289c3; }
+  .contact__infoWrap:nth-of-type(3) i {
+    -webkit-animation-name: fb;
+    animation-name: fb; }
+@-webkit-keyframes fb {
+  from {
+    color: #4267b0; } }
+@keyframes fb {
+  from {
+    color: #4267b0; } }
+  .contact__infoWrap:nth-of-type(3) a:hover {
+    color: #4267b0; }
+  .contact__infoWrap:nth-of-type(4) i {
+    -webkit-animation-name: insta;
+    animation-name: insta; }
+@-webkit-keyframes insta {
+  from {
+    color: #e1306c; } }
+@keyframes insta {
+  from {
+    color: #e1306c; } }
+  .contact__infoWrap:nth-of-type(4) a:hover {
+    color: #e1306c; }
+  .contact__infoWrap:nth-of-type(5) i {
+    -webkit-animation-name: linkedIn;
+    animation-name: linkedIn; }
+@-webkit-keyframes linkedIn {
+  from {
+    color: #0077B5; } }
+@keyframes linkedIn {
+  from {
+    color: #0077B5; } }
+  .contact__infoWrap:nth-of-type(5) a:hover {
+    color: #0077B5; }
+
+@media (max-width: 767px) {
+  .contact .volna {
+    height: 10%; }
+  .contact__infoWrap {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .contact__infoWrap i {
+      position: static;
+      top: auto;
+      -ms-flex-item-align: center;
+          align-self: center;
+      -webkit-transform: none;
+              transform: none; }
+    .contact__infoWrap p {
+      margin-left: 15px; } }
+
+/*# sourceMappingURL=Contact.css.map */

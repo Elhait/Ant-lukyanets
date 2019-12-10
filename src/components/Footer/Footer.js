@@ -8,8 +8,8 @@ import youtube from "../Media/Image/social/youtube.svg"
 function Footer() {
     return (
         <footer>
-            <p>Copyright © 2019 GemLink.io All rights reserved.</p>
-            <div className="social">
+            <p>Copyright © 2019 All rights reserved.</p>
+            {/* <div className="social">
                 <a href="https://www.facebook.com/GemIinkspace-100188178098844" target="_blank" rel="noopener noreferrer">
                     <img src={facebook} alt="facebook" />
                 </a>
@@ -19,7 +19,7 @@ function Footer() {
                 <a href="https://t.me/gemlink_group" target="_blank" rel="noopener noreferrer">
                     <img src={telegram} alt="telegram" />
                 </a>
-            </div>
+            </div> */}
         </footer>
     );
 }

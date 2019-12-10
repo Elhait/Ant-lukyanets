@@ -1,0 +1,112 @@
+.contact
+    position: relative
+    padding: 8% 0 4.3% !important
+    .volna
+        height: 20%
+        overflow: hidden
+        position: absolute
+        top: 0
+        width: 100% 
+    .row
+        align-items: center
+        margin: auto
+    &__infoWrap
+        position: relative
+        display: flex
+        i
+            position: absolute
+            top: 50%
+            transform: translateY(-50%)				
+            margin: auto 0
+            font-size: 30px
+            color: #ffffff
+            -webkit-animation-duration: 5s
+            animation-duration: 5s
+            -webkit-animation-timing-function: linear
+            animation-timing-function: linear
+            -webkit-animation-iteration-count: infinite
+            animation-iteration-count: infinite
+            -webkit-animation-direction: alternate
+            animation-direction: alternate
+        p
+            font-size: 18px
+            margin-left: 50px
+            color: #ffffff
+            a
+                color: #77bccb
+                text-decoration: underline
+                margin-left: 5px
+            a:hover
+                color: #0673b8
+                transition: 500ms
+    &__infoWrap:nth-of-type(1)
+        i
+            -webkit-animation-name: mail
+            animation-name: mail
+        @keyframes mail
+            0%
+                opacity: .5
+            50%
+                opacity: .75
+            100%
+                opacity: 1
+        a:hover
+            color: #ffffff	
+    &__infoWrap:nth-of-type(2)
+        i
+            -webkit-animation-name: telega
+            animation-name: telega
+        @keyframes telega
+            from
+                color: #1289c3
+        a:hover
+            color: #1289c3	
+    &__infoWrap:nth-of-type(3)
+        i
+            -webkit-animation-name: fb
+            animation-name: fb
+        @keyframes fb
+            from
+                color: #4267b0
+        a:hover
+            color: #4267b0
+    &__infoWrap:nth-of-type(4)
+        i
+            -webkit-animation-name: insta
+            animation-name: insta
+        @keyframes insta
+            from
+                color: #e1306c
+        a:hover
+            color: #e1306c	  
+    &__infoWrap:nth-of-type(5)
+        i
+            -webkit-animation-name: linkedIn
+            animation-name: linkedIn
+        @keyframes linkedIn
+            from
+                color: #0077B5
+        a:hover
+            color: #0077B5      
+
+@media (max-width: 767px)
+    .contact
+        .col-12
+            // &:nth-of-type(1)
+            //     order: 2
+            // &:nth-of-type(2)
+            //     order: 1
+        .volna
+            height: 10%
+        &__infoWrap
+            justify-content: center
+            i
+                position: static
+                top: auto
+                align-self: center
+                transform: none
+            p
+                margin-left: 15px
+@media (max-width: 576px)
+@media (max-width: 460px)
+@media (max-width: 350px)

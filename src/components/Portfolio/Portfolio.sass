@@ -1,6 +1,96 @@
 .portfolio
+    position: relative
+    padding: 8% 0 0% !important
+    .waves
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        transform: rotate(180deg)
+    h3
+        text-align: center
+        margin-bottom: 50px
+        text-transform: uppercase
+    .col-12
+        &:last-child
+            .portfolio__works
+                margin-bottom: 0px
     &__works
+        margin-bottom: 50px
         .workPict
             img
                 width: 100%
                 height: 100%
+        .title
+            font-size: 16px
+            font-weight: 600
+            margin: 0 0 10px 0
+        .link
+            display: flex
+            flex-direction: column
+            a
+                font-size: 14px
+                animation-name: neon
+                animation-iteration-count: infinite
+                animation-duration: 5s
+                &:hover
+                    color: #007bff 
+
+
+                @keyframes neon 
+                    0%
+                        text-shadow: 0px 0px 0px #007bff, 0 0 1px #007bff
+                    50%
+                        text-shadow: 0px 0px 5px #007bff, 0 0 1px #007bff
+                    100%
+                        text-shadow: 0px 0px 0px #007bff, 0 0 1px #007bff
+  
+        .technology
+            display: flex
+            i
+                font-size: 3rem
+                margin: auto 15px auto 0
+            .fab.fa-html5
+                color: #f0652a
+            .fab.fa-sass
+                color: #cd6799
+            .fab.fa-js-square
+                color: #d6ba32
+            .fab.fa-bootstrap
+                color: #8543de
+            .fab.fa-css3-alt
+                color: #0277bc
+            .fab.fa-wordpress
+                color: #21759b
+            .fab.fa-react
+                color: #41E0FD
+        .carousel-indicators li 
+            box-sizing: content-box
+            flex: 0 1 auto
+            width: 10px
+            height: 10px
+            margin-right: 3px
+            margin-left: 3px
+            cursor: pointer
+            background-color: #F6C518
+            background-clip: padding-box
+            border-radius: 50%
+
+
+@media (max-width: 767px)
+        .portfolio
+            &__works
+                .workInfo
+                    margin-top: 20px
+                    margin-bottom: 10px
+                .title
+                    text-align: center
+                .link
+                    text-align: center
+                p
+                    text-align: center
+                .technology
+                    justify-content: center
+@media (max-width: 576px)
+@media (max-width: 460px)
+@media (max-width: 350px)
